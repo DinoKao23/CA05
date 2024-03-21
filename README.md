@@ -25,17 +25,18 @@ CA05.ipynb: Notebook showing the step applying algorithm.
 ### Dataset
 The movie_data.csv file contains the following columns:
 
-Movie ID: Unique identifier for each movie.
-Movie Name: Title of the movie.
-IMDB Rating: Rating by users from IMDB.
-Biography: 1 means this is Biography, 0 means this is not Biography
-Drama: 1 means this is Drama, 0 means this is not Drama
-Thriller: 1 means this is Thriller, 0 means this is not Thriller
-Comedy: 1 means this is Comedy, 0 means this is not Comedy
-Crime: 1 means this is Crime, 0 means this is not Crime
-Mystery: 1 means this is Mystery, 0 means this is not Mystery
-History: 1 means this is History, 0 means this is not History
+Movie ID: Unique identifier for each movie. <br />
+Movie Name: Title of the movie. <br />
+IMDB Rating: Rating by users from IMDB. <br />
+Biography: 1 means this is Biography, 0 means this is not Biography <br />
+Drama: 1 means this is Drama, 0 means this is not Drama <br />
+Thriller: 1 means this is Thriller, 0 means this is not Thriller <br />
+Comedy: 1 means this is Comedy, 0 means this is not Comedy <br />
+Crime: 1 means this is Crime, 0 means this is not Crime <br />
+Mystery: 1 means this is Mystery, 0 means this is not Mystery <br />
+History: 1 means this is History, 0 means this is not History <br />
 Label: Use for KNN algorithm prediction
+
 
 ### EDA
 Using Plotly, we can create interactive visualizations that allow us to explore various aspects of the data more effectively. We will examine the distribution of movie genres, user ratings, and other relevant features to better understand the dataset's structure.
